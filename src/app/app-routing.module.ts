@@ -1,3 +1,4 @@
+import { AlterarComponent } from './senha/alterar/alterar.component';
 import { ReadmeComponent } from './inicio/readme/readme.component';
 import { VagaComponent } from './match/vaga/vaga.component';
 import { PerfilComponent } from './cadastro/perfil/perfil.component';
@@ -9,13 +10,18 @@ import { RouterModule, Routes } from '@angular/router';
 import { SobreComponent } from './inicio/sobre/sobre.component';
 
 const routes: Routes = [
-  { path: 'login', component: LoginComponent },
-  { path: 'candidate', component: CandidatoComponent },
-  { path: 'recuiter', component: RecrutadorComponent },
+  { path: '', component: SobreComponent }, //about
+  {
+    path: 'login', component: LoginComponent,
+    children: [
+      { path: 'password', component: AlterarComponent },
+      { path: 'candidate', component: CandidatoComponent },
+      { path: 'recuiter', component: RecrutadorComponent },
+    ],
+   },
   { path: 'profile', component: PerfilComponent },
-  { path: 'vacancy', component: VagaComponent },
   { path: 'readme', component: ReadmeComponent},
-  { path: 'about', component: SobreComponent }
+  { path: 'vacancy', component: VagaComponent },
 ];
 
 @NgModule({
