@@ -11,6 +11,7 @@ import { VagaComponent } from './cadastro/vaga/vaga.component';
 import { ConvocacaoComponent } from './match/convocacao/convocacao.component';
 import { AlterarComponent } from './senha/alterar/alterar.component';
 import { ReadmeComponent } from './inicio/readme/readme.component';
+import { SobreComponent } from './inicio/sobre/sobre.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ReadmeComponent } from './inicio/readme/readme.component';
     VagaComponent,
     ConvocacaoComponent,
     AlterarComponent,
-    ReadmeComponent
+    ReadmeComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,
