@@ -24,7 +24,7 @@ import { SobreComponent } from './inicio/sobre/sobre.component';
     ConvocacaoComponent,
     AlterarComponent,
     ReadmeComponent,
-    SobreComponent
+    SobreComponent,
   ],
   imports: [
     BrowserModule,

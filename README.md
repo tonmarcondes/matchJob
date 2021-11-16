@@ -15,10 +15,43 @@
 
 ## Construindo
 
-- [x] Construção Página Inicial
-- [ ] Cadastro de usuário 
-- [ ] Cadastro de cliente
-- [ ] Finalizando
+- [x] Construção Estrutura
+- [x] Frameworks
+- [x] Rotas
+  - [x] Login
+    - [x] HTML
+    - [ ] Typescript
+  - [x] Candidato
+    - [x] HTML
+    - [ ] Typescript
+  - [x] Recrutador
+    - [x] HTML
+    - [ ] Typescript
+  - [x] Perfil
+    - [x] HTML
+    - [ ] Typescript
+  - [x] Vaga
+    - [x] HTML
+    - [ ] Typescript
+  - [x] Convocacao
+    - [x] HTML
+    - [ ] Typescript
+  - [x] Alterar
+    - [x] HTML
+    - [ ] Typescript
+  - [x] Readme
+    - [x] HTML
+    - [ ] Typescript
+  - [x] Sobre
+    - [x] HTML
+    - [ ] Typescript
+- [x] Barra de navegação
+- [x] Banco de dados
+- [ ] REST 
+- [ ] CRUD
+- [ ] Testes
+- [ ] Entrega
+
 
 ## Languages and Tools
 
