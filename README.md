@@ -13,7 +13,27 @@
 
 <h4 align="center">  🚧  Match Job 🚀 Em construção...  🚧 </h4>
 
-## Construindo
+---
+
+## Instalação
+
+### Clonando o repositório
+
+```shell
+git clone https://github.com/tonmarcondes/matchJob.git
+```
+
+### Instalando as dependências
+
+```shell
+cd matchjob
+npm install
+ng serve --open
+````
+
+---
+
+## Status
 
 - [x] Construção Estrutura
 - [x] Frameworks
@@ -31,16 +51,16 @@
     - [x] HTML
     - [ ] Typescript
   - [x] Vaga
-    - [x] HTML
+    - [ ] HTML
     - [ ] Typescript
   - [x] Convocacao
-    - [x] HTML
+    - [ ] HTML
     - [ ] Typescript
-  - [x] Alterar
+  - [x] Alterar senha
     - [x] HTML
     - [ ] Typescript
   - [x] Readme
-    - [x] HTML
+    - [ ] HTML
     - [ ] Typescript
   - [x] Sobre
     - [x] HTML

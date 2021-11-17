@@ -15,8 +15,8 @@
   <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" routerLink="/about">
-          <img src="./../assets/matchjob.png" alt="logo match job" width="30px" class="d-inline-block align-text-top">
+        <a class="navbar-brand" routerLink="/">
+          <!-- <img src="./../assets/matchjob.png" alt="logo match job" width="30px" class="d-inline-block align-text-top"> -->
           Match Job
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,23 +28,26 @@
               <a class="nav-link " aria-current="page" routerLink="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" routerLink="/login" routerLinkActive="selected">Login</a>
+              <a class="nav-link" routerLink="/profile" routerLinkActive="selected">Cadastro</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" routerLink="profile" routerLinkActive="selected">Cadastro</a>
+              <a class="nav-link" routerLink="/contact" routerLinkActive="selected">Fale conosco</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link disabled">Apoie</a>
             </li>
           </ul>
-          <!-- <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form> -->
+          <form class="d-flex">
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+            <li class="nav-item">
+              <!-- <i class="person-fill link-light"></i> -->
+              <a class="nav-link link-light" routerLink="login">Login</a>
+            </li>
+          </form>
         </div>
       </div>
     </nav>
-    <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
