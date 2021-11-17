@@ -14,6 +14,13 @@
 <h4 align="center">  🚧  Match Job 🚀 Em construção...  🚧 </h4>
 
 ---
+## Atualização
+
+>Caso anteriormente já tenha feito o clone do sistema no GitHub, entre na pasta **matchjob** e rode o comando abaixo para baixar as atualizações do repositório
+
+```shell
+git pull
+```
 
 ## Instalação
 
@@ -28,6 +35,11 @@ git clone https://github.com/tonmarcondes/matchJob.git
 ```shell
 cd matchjob
 npm install
+```
+
+### Rodando o sistema
+
+```shell
 ng serve --open
 ````
 
