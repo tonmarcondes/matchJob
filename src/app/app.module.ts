@@ -15,6 +15,8 @@ import { SobreComponent } from './inicio/sobre/sobre.component';
 import { PasswordComponent } from './senha/password/password.component';
 import { ContatoComponent } from './contato/contato.component';
 
+import { NgxMaskModule, IConfig } from 'ngx-mask';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +34,10 @@ import { ContatoComponent } from './contato/contato.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxMaskModule.forRoot({
+      dropSpecialCharacters: true // Ao salvar vai remover a máscara
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

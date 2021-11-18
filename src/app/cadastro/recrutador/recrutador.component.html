@@ -1,4 +1,5 @@
 <div class="container col-md-6" style="margin-top: 3vh;">
+  <strong>Cadastro recrutador</strong>
   <form>
     <div class="mb-3 form-floating">
       <input type="text" class="form-control" id="floatingInput" >
@@ -8,27 +9,33 @@
       <input type="text" class="form-control" id="floatingInput" >
       <label class="form-label" for="floatingInput">Nome Fantasia</label>
     </div>
-    <div class="mb-3 form-floating">
-      <input type="text" class="form-control">
-      <label class="form-label" for="">Data de Abertura</label>
-    </div>
-    <div class="mb-3 form-floating">
-      <input type="text" class="form-control">
-      <label class="form-label" for="">CNPJ</label>
+
+    <div class="row row-cols-2 g-2">
+      <div class="mb-3 form-floating">
+        <input type="date" class="form-control">
+        <label class="form-label" for="">Data de Abertura</label>
+      </div>
+      <div class="mb-3 form-floating">
+        <input type="text" class="form-control" min="14" max="14" mask="00.000.000/0000-00">
+        <label class="form-label" for="">CNPJ</label>
+      </div>
     </div>
     <div class="mb-3 form-floating">
       <input type="text" class="form-control">
       <label class="form-label" for="">Endereço</label>
     </div>
-    <div class="mb-3 form-floating">
-      <input type="text" class="form-control">
-      <label class="form-label" for="">E-mail</label>
+
+    <div class="row row-cols-2 g-2">
+      <div class="mb-3 form-floating">
+        <input type="email" class="form-control">
+        <label class="form-label" for="">E-mail</label>
+      </div>
+      <div class="mb-3 form-floating">
+        <input type="tel" class="form-control" max="11" mask="(00) 0 0000-0000">
+        <label class="form-label" for="">Celular</label>
+      </div>
     </div>
-    <div class="mb-3 form-floating">
-      <input type="text" class="form-control">
-      <label class="form-label" for="">Telefone</label>
-    </div>
-      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <div class="d-grid gap-2 d-md-flex justify-content-md-center">
         <a class="btn btn-outline-dark btn-lg col-md-6" routerLink="/profile">
           Voltar
         </a>

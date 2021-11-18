@@ -1,1 +1,30 @@
-<p>contato works!</p>
+<div class="container col-md-6" style="margin-top: 3vh;">
+  <strong>Fale conosco</strong>
+  <form>
+    <div class="mb-3 form-floating">
+      <input type="email" class="form-control" id="floatingInput" required>
+      <label class="form-floating" for="floatingInput">Email</label>
+    </div>
+    <div class="mb-3 form-floating">
+      <input type="text" class="form-control" id="floatingInput" >
+      <label class="form-label" for="floatingInput">Assunto</label>
+    </div>
+
+    <div class="mb-3 form-floating">
+      <textarea name="" class="form-control" id="floatingTextarea" cols="30" rows="20" style="height: 30vh;" required>
+
+      </textarea>
+      <label class="form-label" for="floatingTextarea">Mensagem</label>
+    </div>
+
+
+      <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <a class="btn btn-outline-dark btn-lg col-md-6" routerLink="/">
+          Voltar
+        </a>
+        <button class="btn btn-dark btn-lg col-md-6">
+          Enviar
+        </button>
+      </div>
+</form>
+</div>

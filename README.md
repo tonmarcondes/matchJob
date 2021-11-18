@@ -55,9 +55,11 @@ ng serve --open
     - [ ] Typescript
   - [x] Candidato
     - [x] HTML
+    - [x] Máscaras CPF e Celular
     - [ ] Typescript
   - [x] Recrutador
     - [x] HTML
+    - [x] Máscaras CNPJ e Celular
     - [ ] Typescript
   - [x] Perfil
     - [x] HTML
@@ -75,6 +77,9 @@ ng serve --open
     - [ ] HTML
     - [ ] Typescript
   - [x] Sobre
+    - [x] HTML
+    - [ ] Typescript
+  -[x] Fale conosco
     - [x] HTML
     - [ ] Typescript
 - [x] Barra de navegação
