@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -16,6 +17,10 @@ import { PasswordComponent } from './senha/password/password.component';
 import { ContatoComponent } from './contato/contato.component';
 
 import { NgxMaskModule, IConfig } from 'ngx-mask';
+import { EscolaridadeComponent } from './cadastro/candidato/escolaridade/escolaridade.component';
+import { ComportamentalComponent } from './info/comportamental/comportamental.component';
+import { TrabalhosComponent } from './info/trabalhos/trabalhos.component';
+import { FichaComponent } from './candidato/ficha/ficha.component';
 
 @NgModule({
   declarations: [
@@ -31,10 +36,15 @@ import { NgxMaskModule, IConfig } from 'ngx-mask';
     SobreComponent,
     PasswordComponent,
     ContatoComponent,
+    EscolaridadeComponent,
+    ComportamentalComponent,
+    TrabalhosComponent,
+    FichaComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     NgxMaskModule.forRoot({
       dropSpecialCharacters: true // Ao salvar vai remover a máscara
     }),

@@ -1,3 +1,4 @@
+import { TrabalhoComponent } from './cadastro/candidato/trabalho/trabalho.component';
 import { ContatoComponent } from './contato/contato.component';
 import { PasswordComponent } from './senha/password/password.component';
 import { AlterarComponent } from './senha/alterar/alterar.component';
@@ -20,7 +21,8 @@ const routes: Routes = [
   { path: 'profile', component: PerfilComponent },
   { path: 'readme', component: ReadmeComponent},
   { path: 'vacancy', component: VagaComponent },
-  { path: 'contact', component: ContatoComponent }
+  { path: 'contact', component: ContatoComponent },
+  { path: 'work', component: TrabalhoComponent }
 ];
 
 @NgModule({

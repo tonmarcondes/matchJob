@@ -1,3 +1,4 @@
+import { ApiService } from './../../api.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CandidatoComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private apiService: ApiService) { }
+  ngOnInit() {
+    // this.retrieveComportamental();
   }
 
 }
