@@ -1,3 +1,7 @@
+import { FichaComponent } from './candidato/ficha/ficha.component';
+import { EscolaridadeComponent } from './cadastro/candidato/escolaridade/escolaridade.component';
+import { UfComponent } from './uf/uf.component';
+import { ComportamentalComponent } from './info/comportamental/comportamental.component';
 import { TrabalhoComponent } from './cadastro/candidato/trabalho/trabalho.component';
 import { ContatoComponent } from './contato/contato.component';
 import { PasswordComponent } from './senha/password/password.component';
@@ -22,7 +26,11 @@ const routes: Routes = [
   { path: 'readme', component: ReadmeComponent},
   { path: 'vacancy', component: VagaComponent },
   { path: 'contact', component: ContatoComponent },
-  { path: 'work', component: TrabalhoComponent }
+  { path: 'work', component: TrabalhoComponent },
+  { path: 'skill', component: ComportamentalComponent },
+  { path: 'uf', component: UfComponent},
+  { path: 'knowledge', component: EscolaridadeComponent },
+  { path: 'record', component: FichaComponent }
 ];
 
 @NgModule({

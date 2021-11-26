@@ -1,0 +1,72 @@
+{
+  "escolaridade":
+  [
+    {"id": 0, "ensino": ""},
+    {"id": 1, "ensino": "Superior"},
+    {"id": 2, "ensino": "Superior Incompleto"},
+    {"id": 3, "ensino": "Medio"},
+    {"id": 4, "ensino": "Medio Incompleto"},
+    {"id": 5, "ensino": "Fundamental"},
+    {"id": 6, "ensino": "Fundamental Incompleto"}
+  ],
+
+  "estadoCivil":
+  [
+    {"id": 0, "civil": ""},
+    {"id": 1, "civil": "Solteiro"},
+    {"id": 2, "civil": "Casado"},
+    {"id": 3, "civil": "Separado"},
+    {"id": 4, "civil": "Divorciado"},
+    {"id": 5, "civil": "Viúvo"},
+    {"id": 6, "civil": "Amasiado"}
+  ],
+
+  "uf":
+  [
+    {"id": 0, "uf": ""},
+    {"id": 1, "uf": "AC"},
+    {"id": 2, "uf": "AL"},
+    {"id": 3, "uf": "AP"},
+    {"id": 4, "uf": "AM"},
+    {"id": 5, "uf": "BA"},
+    {"id": 6, "uf": "CE"},
+    {"id": 7, "uf": "DF"},
+    {"id": 8, "uf": "ES"},
+    {"id": 9, "uf": "GO"},
+    {"id": 10, "uf": "MA"},
+    {"id": 11, "uf": "MS"},
+    {"id": 12, "uf": "MT"},
+    {"id": 13, "uf": "MG"},
+    {"id": 14, "uf": "PA"},
+    {"id": 15, "uf": "PB"},
+    {"id": 16, "uf": "PR"},
+    {"id": 17, "uf": "PE"},
+    {"id": 18, "uf": "PI"},
+    {"id": 19, "uf": "RJ"},
+    {"id": 20, "uf": "RN"},
+    {"id": 21, "uf": "RS"},
+    {"id": 22, "uf": "RO"},
+    {"id": 23, "uf": "RR"},
+    {"id": 24, "uf": "SC"},
+    {"id": 25, "uf": "SP"},
+    {"id": 26, "uf": "SE"},
+    {"id": 27, "uf": "TO"}
+  ],
+
+  "comportamental":
+  [
+    {"id": 0, "skill": ""},
+    {"id": 1, "skill": "Boa comunicação"},
+    {"id": 2, "skill": "Trabalho em equipe"},
+    {"id": 3, "skill": "Resiliência"},
+    {"id": 4, "skill": "Proatividade"},
+    {"id": 5, "skill": "Ética no trabalho"},
+    {"id": 6, "skill": "Pensamento crítico"},
+    {"id": 7, "skill": "Criatividade"},
+    {"id": 8, "skill": "Empatia"},
+    {"id": 9, "skill": "Liderança"},
+    {"id": 10, "skill": "Positividade"},
+    {"id": 11, "skill": "Atenção para ouvir"},
+    {"id": 12, "skill": "Gerenciamento do tempo"}
+  ]
+}

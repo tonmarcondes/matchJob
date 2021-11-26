@@ -1,0 +1,18 @@
+<!-- COMPORTAMENTAL -->
+<div class="row row-cols-2 g-2">
+  <div class="mb-3 form-floating">
+    <select class="form-control transparente">
+      <option *ngFor="let Skill of listaSkill" value="{{Skill.id}}">{{Skill.skill}}</option>
+    </select>
+    <!-- <input type="text" class="form-control"> -->
+    <label for="" class="form-floating">Caracteristica Comportamental:</label>
+  </div>
+
+  <div class="mb-3 form-floating">
+    <input onchange='document.getElementById("labelRange").innerHTML = "Nivel: " + document.getElementById("customRange").value' type="range" class="form-control form-range transparente" id="customRange" min="0" max="5" step="1" value="0">
+    <label for="" class="form-floating" id="labelRange">Nivel:</label>
+  </div>
+</div>
+<!-- <div class="row row-cols-2 g-2">
+  <app-comportamental></app-comportamental>
+</div> -->

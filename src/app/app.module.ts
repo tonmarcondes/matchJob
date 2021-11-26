@@ -1,3 +1,4 @@
+import { TrabalhoComponent } from './cadastro/candidato/trabalho/trabalho.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -21,6 +22,7 @@ import { EscolaridadeComponent } from './cadastro/candidato/escolaridade/escolar
 import { ComportamentalComponent } from './info/comportamental/comportamental.component';
 import { TrabalhosComponent } from './info/trabalhos/trabalhos.component';
 import { FichaComponent } from './candidato/ficha/ficha.component';
+import { UfComponent } from './uf/uf.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +42,8 @@ import { FichaComponent } from './candidato/ficha/ficha.component';
     ComportamentalComponent,
     TrabalhosComponent,
     FichaComponent,
+    UfComponent,
+    TrabalhoComponent
   ],
   imports: [
     BrowserModule,

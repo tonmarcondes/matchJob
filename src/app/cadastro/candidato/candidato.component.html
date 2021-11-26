@@ -1,51 +1,60 @@
-<div class="container col-md-6" style="margin-top: 3vh;">
-  <strong>Cadastro candidato</strong>
-  <form>
+
+<strong>Cadastro candidato</strong>
+<!-- <form> -->
+  <div class="mb-3 form-floating">
+    <input type="text" class="form-control" id="floatingInput" required>
+    <label class="form-floating" for="floatingInput">Nome Completo</label>
+  </div>
+  <div class="mb-3 form-floating">
+    <input type="text" class="form-control" id="floatingInput" >
+    <label class="form-label" for="floatingInput">Nome Social (Se houver)</label>
+  </div>
+
+  <div class="row row-cols-2 g-2">
+    <div class="#col-4 mb-3 form-floating">
+      <input type="date" class="form-control" required>
+      <label class="form-label" for="">Data Nascimento</label>
+    </div>
+    <div class="#col-4 mb-3 form-floating">
+      <input type="text" class="form-control" min="11" max="11" required mask="000.000.000-00">
+      <label class="form-label" for="">CPF</label>
+    </div>
+  </div>
+  <div class="mb-3 form-floating">
+    <input type="text" class="form-control" required>
+    <label class="form-label" for="">Endereço</label>
+  </div>
+
+  <div class="row row-cols-2 g-2">
     <div class="mb-3 form-floating">
-      <input type="text" class="form-control" id="floatingInput" required>
-      <label class="form-floating" for="floatingInput">Nome Completo</label>
+      <input type="text" class="form-control">
+      <label for="" class="form-floating">Cidade:</label>
+    </div>
+
+    <app-uf></app-uf>
+
+  </div>
+
+  <div class="row row-cols-2 g-2">
+    <div class="mb-3 form-floating">
+      <input type="email" class="form-control" required>
+      <label class="form-label" for="">E-mail</label>
     </div>
     <div class="mb-3 form-floating">
-      <input type="text" class="form-control" id="floatingInput" >
-      <label class="form-label" for="floatingInput">Nome Social (Se houver)</label>
+      <input type="tel" class="form-control" required mask="(00) 0 0000-0000">
+      <label class="form-label" for="">Celular</label>
     </div>
+  </div>
+  <div>
 
-    <div class="row row-cols-2 g-2">
-      <div class="#col-4 mb-3 form-floating">
-        <input type="date" class="form-control" required>
-        <label class="form-label" for="">Data Nascimento</label>
-      </div>
-      <div class="#col-4 mb-3 form-floating">
-        <input type="text" class="form-control" min="11" max="11" required mask="000.000.000-00">
-        <label class="form-label" for="">CPF</label>
-      </div>
-    </div>
-    <div class="mb-3 form-floating">
-      <input type="text" class="form-control" required>
-      <label class="form-label" for="">Endereço</label>
-    </div>
+  </div>
 
-    <div class="row row-cols-2 g-2">
-      <div class="mb-3 form-floating">
-        <input type="email" class="form-control" required>
-        <label class="form-label" for="">E-mail</label>
-      </div>
-      <div class="mb-3 form-floating">
-        <input type="tel" class="form-control" required mask="(00) 0 0000-0000">
-        <label class="form-label" for="">Celular</label>
-      </div>
-    </div>
-    <div>
-
-    </div>
-
-      <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-        <a class="btn btn-outline-dark btn-lg col-md-6" routerLink="/profile">
-          Voltar
-        </a>
-        <button class="btn btn-dark btn-lg col-md-6">
-          Enviar
-        </button>
-      </div>
-</form>
-</div>
+    <!-- <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+      <a class="btn btn-outline-dark btn-lg col-md-6" routerLink="/profile">
+        Voltar
+      </a>
+      <button class="btn btn-dark btn-lg col-md-6">
+        Enviar
+      </button>
+    </div> -->
+<!-- </form> -->
