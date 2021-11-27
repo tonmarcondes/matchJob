@@ -4,7 +4,7 @@
 
 <img alt="Crates.io badge" src="https://img.shields.io/badge/license-MIT%2FApache--2.0-blue">
 
-<!-- ![logo](C:\Users\patri\Desktop\Trabalho Site\logo.png) -->
+
 <p align="center"><img src="./src/assets/matchjob.png"></p>
 
 <h3 align="center">Site desenvolvido ....</h3>
@@ -45,6 +45,21 @@ ng serve --open
 
 ---
 
+> Para navegar no projeto após instalado e rodando, use os endpoints abaixo
+>
+> | end point | URL completa 		    	   |
+> | ---------     | ------------ 							 |
+> |recruiter  |http://localhost/recruiter  |
+> |password|http://localhost/password|
+> |profile	 |http://localhost/profile	 |
+> |readme	 |http://localhost/readme	 |
+> |vacancy   |http://localhost/vacancy   |
+> |contact    |http://localhost/contact	  |
+> |record	   |http://localhost/record	    |
+> |call		    |http://localhost/call		   |
+> |match	 |http://localhost/match	  |
+> **Evidentemente a navegação por end point estará desativada quando toda a regra de negócio (lógica) estiver implementada!**
+
 ## Status
 
 - [x] Construção Estrutura
@@ -65,7 +80,7 @@ ng serve --open
     - [x] HTML
     - [ ] Typescript
   - [x] Vaga
-    - [ ] HTML
+    - [x] HTML
     - [ ] Typescript
   - [x] Convocacao
     - [ ] HTML
@@ -74,18 +89,18 @@ ng serve --open
     - [x] HTML
     - [ ] Typescript
   - [x] Readme
-    - [ ] HTML
+    - [x] HTML
     - [ ] Typescript
   - [x] Sobre
     - [x] HTML
     - [ ] Typescript
-  -[x] Fale conosco
+    - [x] Fale conosco
     - [x] HTML
     - [ ] Typescript
 - [x] Barra de navegação
 - [x] Banco de dados
 - [ ] REST 
-- [ ] CRUD
+- [x] CRUD
 - [ ] Testes
 - [ ] Entrega
 
@@ -96,10 +111,10 @@ ng serve --open
 
 ## Contribuidores
 
-| **Grupo Projeto Integrador**                          |
-| ----------------------------------------------------- |
-| - Julio Cesar Esteves de Sousa, ***\*200445\****      |
-| - Larissa  da Cunha Messias, ***\*2004111\****        |
-| - Patrick da Silva Americo, ***\*2015736\****         |
-| - Wellyngton Marcondes, ***\*2014425\****             |
-| - Wellington Wesley da Silva Leite, ***\*1705195\**** |
+| Grupo Projeto Integrador UNIVESP|RA     |
+| ------------------------------- |:-----:|
+|Julio Cesar Esteves de Sousa     |200445|
+|Larissa  da Cunha Messias        |2004111|
+|Patrick da Silva Americo         |2015736|
+|Wellington Wesley da Silva Leite |1705195|
+|Wellyngton Marcondes             |2014425|
