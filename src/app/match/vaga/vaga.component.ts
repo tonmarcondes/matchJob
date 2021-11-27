@@ -1,3 +1,5 @@
+import { ApiService } from './../../api.service';
+import { Iensino } from './../../IMatchJob';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VagaComponent implements OnInit {
 
-  constructor() { }
+  listaEscolaridade: Iensino[] = []
+
+  constructor(private apiEnsino: ApiService) { }
 
   ngOnInit(): void {
+    this.obterEnsino()
+  }
+
+  obterEnsino(){
+    this.apiEnsino.obterEnsinos()
+      .then(escolar => {
+        this.listaEscolaridade = escolar
+      })
   }
 
 }

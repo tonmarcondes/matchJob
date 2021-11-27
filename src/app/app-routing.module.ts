@@ -1,3 +1,5 @@
+import { MatchComponent } from './match/match.component';
+import { ConvocacaoComponent } from './match/convocacao/convocacao.component';
 import { FichaComponent } from './candidato/ficha/ficha.component';
 import { EscolaridadeComponent } from './cadastro/candidato/escolaridade/escolaridade.component';
 import { UfComponent } from './uf/uf.component';
@@ -30,7 +32,9 @@ const routes: Routes = [
   { path: 'skill', component: ComportamentalComponent },
   { path: 'uf', component: UfComponent},
   { path: 'knowledge', component: EscolaridadeComponent },
-  { path: 'record', component: FichaComponent }
+  { path: 'record', component: FichaComponent },
+  { path: 'call', component: ConvocacaoComponent },
+  { path: 'match', component: MatchComponent },
 ];
 
 @NgModule({

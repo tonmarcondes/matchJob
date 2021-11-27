@@ -1,1 +1,49 @@
-<h1>convocacao works!</h1>
+<div class="container col-md-6">
+
+  <div class="row row-cols-2 g-2">
+    <div class="col-md-12 form-floating">
+			<h1 class="text-center">Convocação para a próxima fase</h1>
+		</div>
+  </div>
+
+  <div class="row row-cols-2 g-2 mb-2">
+    <div class="col-md-12 form-floating">
+			<p class="text-center lead">Vaga {{vaga}}</p>
+		</div>
+  </div>
+
+  <div class="row row-cols-2 g-2 mb-2">
+    <div class="col-md-12 form-floating">
+			<input type="text" class="form-control">
+			<label class="form-floating">Assunto</label>
+		</div>
+  </div>
+
+  <div class="row row-cols-2 g-2 mb-2">
+    <div class="col-md-12 form-floating">
+			<textarea class="form-control" style="height: 30vh;">{{mensagem}}</textarea>
+			<label class="form-floating control-label">Mensagem</label>
+		</div>
+  </div>
+
+  <div class="row row-cols-2 g-2 mb-2">
+    <div class="col-md-12 form-floating">
+			<div class="form-control col-md-6">
+        <table class="table">
+          <tr>
+            <td>89% - Ciclano</td>
+            <td><input type="checkbox" name="convocado" id="convocado" class="dark"></td>
+          </tr>
+        </table>
+      </div>
+
+			<label class="form-floating">Candidatos</label>
+		</div>
+  </div>
+
+  <div class="row g-2 mb-2">
+    <div class="d-flex flex-row-reverse">
+			<button class="btn btn-dark">Enviar convocação</button>
+		</div>
+  </div>
+</div>

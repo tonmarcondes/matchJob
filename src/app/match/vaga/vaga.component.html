@@ -1,1 +1,62 @@
-<h1>vaga works!</h1>
+<div class="container col-md-6">
+
+  <div class="row row-cols-1 g-2 mb-2">
+    <strong>Descrição da Vaga</strong>
+    <div class="col-md-12 form-floating ">
+      <input type="text" class="form-control">
+      <label class="form-floating">Nome da Vaga:</label>
+    </div>
+  </div>
+
+  <div class="row row-cols-2 g-2 mb-2">
+    <div class="col-md-6 form-floating">
+      <input type="number" class="form-control" max="30">
+      <label class="form-floating">Número De Vagas:</label>
+    </div>
+    <div class="col-md-6 form-floating">
+      <input type="number" class="form-control" max="720">
+      <label class="form-floating">Experiência (meses):</label>
+    </div>
+  </div>
+
+  <div class="row row-cols-2 g-2 mb-2">
+    <div class="col-md-6 form-floating">
+      <input type="text" class="form-control">
+      <label class="form-floating">Cargo Procurado:</label>
+    </div>
+    <div class="col-md-6 form-floating">
+      <select class="form-control">
+        <option *ngFor="let escolaridade of listaEscolaridade" value="{{escolaridade.id}}">{{escolaridade.ensino}}</option>
+      </select>
+      <label class="form-floating">Escolaridade:</label>
+    </div>
+  </div>
+
+  <div class="row row-cols-2 g-2 mb-2">
+    <div class="col-md-6 form-floating">
+      <input type="text" class="form-control">
+      <label class="form-floating">Município da vaga:</label>
+    </div>
+    <app-uf></app-uf>
+  </div>
+
+  <div class="col-md-12 form-floating mb-2" style="margin-top: -1em;">
+    <textarea class="form-control" style="height: 15vh;"></textarea>
+    <label class="form-floating">Observação para Contratação</label>
+  </div>
+
+  <div class="row row-cols-2 g-2 mb-2">
+    <div class="col-md-6 form-floating mb-2" >
+      <button type="submit" class="btn btn-dark col-md-6">Enviar</button>
+    </div>
+
+    <div class="d-flex flex-row-reverse">
+      <button class="btn btn-lg rounded-circle btn-dark">＋</button>
+      <div class="col-md-12 form-floating mb-2">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+

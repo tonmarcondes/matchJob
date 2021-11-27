@@ -9,7 +9,7 @@ import { LoginComponent } from './login/login/login.component';
 import { CandidatoComponent } from './cadastro/candidato/candidato.component';
 import { RecrutadorComponent } from './cadastro/recrutador/recrutador.component';
 import { PerfilComponent } from './cadastro/perfil/perfil.component';
-import { VagaComponent } from './cadastro/vaga/vaga.component';
+import { VagaComponent } from './match/vaga/vaga.component';
 import { ConvocacaoComponent } from './match/convocacao/convocacao.component';
 import { AlterarComponent } from './senha/alterar/alterar.component';
 import { ReadmeComponent } from './inicio/readme/readme.component';
@@ -23,6 +23,8 @@ import { ComportamentalComponent } from './info/comportamental/comportamental.co
 import { TrabalhosComponent } from './info/trabalhos/trabalhos.component';
 import { FichaComponent } from './candidato/ficha/ficha.component';
 import { UfComponent } from './uf/uf.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { MatchComponent } from './match/match.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { UfComponent } from './uf/uf.component';
     TrabalhosComponent,
     FichaComponent,
     UfComponent,
-    TrabalhoComponent
+    TrabalhoComponent,
+    NavbarComponent,
+    MatchComponent
   ],
   imports: [
     BrowserModule,
